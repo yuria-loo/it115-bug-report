@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical Test Web Page</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background: #ccc;
+        }
+
+        #wrapper {
+            width: 940px;
+            margin: 20px auto;
+            background: lightblue;
+        }
+
+       header {
+            background: blue;
+            height: 200px;
+        }
+
+        nav {
+            height: 50px;
+            background: yellow;
+            line-height: 50px;
+        }
+
+        nav li {
+            list-style-type: none;
+            float: left;
+            width: 14%;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            display: block;
+        }
+
+        nav a:hover {
+            background: black;
+            color: white;
+        }
+
+        .first li:nth-child(1) a,
+        .second li:nth-child(2) a,
+        .third li:nth-child(3) a,
+        .fourth li:nth-child(4) a,
+        .fifth li:nth-child(5) a,
+        .sixth li:nth-child(6) a,
+        .last li:nth-child(7) a {
+            background: black;
+            color: white;
+        }               
+
+        .row {
+            clear: both;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .item1 {
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+            background: red;
+            float: left;
+        }
+
+        .item2 {
+            width: 300px;
+            height: 300px;
+            margin-right: 20px;
+            background: white;
+            float: left;
+        }
+
+        .item3 {
+            width: 300px;
+            height: 300px;
+            background: pink;
+            float: left;
+            margin-right: 0;
+        }
+
+        footer {
+            height: 50px;
+            background: #666666;
+        }
+
+        .valid {
+            text-align: center;
+            padding: 20px;
+            clear: both;
+            display: block;
+        }
+
+        .center {
+            margin: 20px auto;
+            text-align: center;
+            display: block;
+        }
+
+    </style>
+
+</head>
+
+
+<body class="first">
+
+    <div id="wrapper">
+
+        <header>
+
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="">First</a></li>
+                <li><a href="">Second</a></li>
+                <li><a href="">Third</a></li>
+                <li><a href="">Fourth</a></li>
+                <li><a href="">Fifth</a></li>
+                <li><a href="">Sixth</a></li>
+                <li><a href="">Last</a></li>
+            </ul>
+        </nav>
+
+        <div class="row">
+            <div class="item1">
+
+            </div>
+
+            <div class="item2">
+                
+            </div>
+
+            <div class="item3">
+                
+            </div>
+
+        </div> <!-- end row -->
+
+    </div> <!-- End Wrapper -->
+
+    
+    <footer>
+
+    </footer>
+
+    <a class="valid" href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Eyurialoo%2Fit161%2Fpractical.html">HTML Valid</a>
+
+    <img class="center"  src="images/html5.png" alt="HTML5 logo">
+    
+</body>
+</html>
